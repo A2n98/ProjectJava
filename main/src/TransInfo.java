@@ -14,4 +14,9 @@ public class TransInfo {
         this.subject = subject;
         this.group = group;
     }
+
+    @Override
+    public String toString() {
+        return this.suppressed + " " + this.status + " " + this.units + " " + this.magnitude + " " + this.subject + " " + this.group;
+    }
 }

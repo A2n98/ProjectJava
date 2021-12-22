@@ -12,4 +12,9 @@ public class SerieTitles {
         this.title4 = t4;
         this.title5 = t5;
     }
+
+    @Override
+    public String toString() {
+        return this.title1 + " " + this.title2 + " " + this.title3 + " " + this.title4 + " " + this.title5;
+    }
 }
